@@ -1,0 +1,30 @@
+# Gradle / Android Studio
+.gradle/
+build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+.idea/
+.kotlin/
+local.properties
+
+# İmza anahtarları ve gizli dosyalar (ASLA yüklenmez)
+keystore.properties
+*.jks
+*.keystore
+
+# Üretilen çıktılar
+*.apk
+*.aab
+APK/
+*.log
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+
+# apk-uret.ps1 çıktıları
+derleme-gunlugu.txt
+hatalar.txt
